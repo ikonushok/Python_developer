@@ -1,5 +1,13 @@
-
-
-
-
 punctuations = '.!"#$%&()*+,-./:;<=>?@[\]^_`{|}~'
+
+
+__________________________________________________
+import pymorphy2
+morph = pymorphy2.MorphAnalyzer()  # объявления экземпляра класса Анализатора слов
+
+dict_wods_lem = {}
+for i in range(len(words):
+    #dict_wods_lem[words[i]] = morph.parse(words[i])[0].normal_form
+    dict_wods_lem[i] = morph.parse(words[i])[0].normal_form
+
+d = list(d.items())
