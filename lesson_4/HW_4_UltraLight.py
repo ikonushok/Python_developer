@@ -9,6 +9,7 @@ def sqr(a):
     return a**2
 print(sqr(4))
 
+
 # Лямбда функция
 s = lambda x: x**3
 print(s(3))
