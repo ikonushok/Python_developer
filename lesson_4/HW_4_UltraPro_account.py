@@ -1,7 +1,6 @@
 # Menu
 def menu(num):
     """
-
     :param num:
     :return:
     """
@@ -16,7 +15,6 @@ def menu(num):
 # Покупка
 def add(num, hist):
     """
-
     :param num:
     :param hist:
     :return:
