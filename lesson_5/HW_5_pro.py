@@ -18,6 +18,6 @@ def list_simple_dividers(num):
 print('Каноническое разложение числа: ', list_simple_dividers(num))
 
 def divider_max(num):
-    return max(dividers_num(num))
+    return max(dividers_num(num)[:-2])
 
 print('Самый большой делитель: ', divider_max(num) )
