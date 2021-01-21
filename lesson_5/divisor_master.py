@@ -18,11 +18,18 @@ def prime_simple(num):
     :param num:
     :return:
     """
-    if dividers_num(num)[1] == num: print('Число простое')
-    else: print('Число НЕ простое')
+    if dividers_num(num)[1] == num:
+        return 'Число простое'
+    else:
+        return 'Число НЕ простое'
 
 
 def prime_def(num):
+    """
+    выводит самый большой простой делитель числа
+    :param num:
+    :return:
+    """
     from math import sqrt
     prime_set = set(range(1, num + 1))
     #print(prime_set)
