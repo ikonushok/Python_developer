@@ -23,6 +23,11 @@ def prime_simple(num):
 
 
 def prime_def(num):
+    """
+    Поиск максимального простого делителея числа
+    :param num:
+    :return:
+    """
     from math import sqrt
     prime_set = set(range(1, num + 1))
     #print(prime_set)
